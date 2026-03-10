@@ -56,7 +56,7 @@ We provide **four datasets** for suicide risk detection. Each has two versions: 
 | Reddit-500 | English  | 500    | ~9,000   | 5 (0–4) | Reddit           |
 | SIGIR      | English  | 12,325 | ~12,325  | 2 (0–1) | SIGIR Dataset    |
 | Weibo      | Chinese  | 7327   | ~467,291 | 2(0–1)  | Weibo            |
-| BigData    | Chinese  | 7,383  | ~36,915  | 4 (0–3) | BigData 2025 Cup |
+| BigData    | English  | 7,383  | ~36,915  | 4 (0–3) | BigData 2025 Cup |
 
 ---
 
