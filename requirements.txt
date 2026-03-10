@@ -1,0 +1,45 @@
+# ============================================================
+# EmoCC: Enhancing Suicide Risk Detection by Incorporating 
+# Emoji-Enhanced Contextual Cues in Understanding Users' Posts
+# ============================================================
+# Python >= 3.8 required
+# Installation: pip install -r requirements.txt
+# ============================================================
+
+# ----------------------
+# Deep Learning Framework
+# ----------------------
+torch>=1.13.0
+torchvision>=0.14.0
+torchaudio>=0.13.0
+
+# ----------------------
+# Data Processing
+# ----------------------
+numpy>=1.21.0
+pandas>=1.3.0
+
+# ----------------------
+# Machine Learning
+# ----------------------
+scikit-learn>=1.0.0
+
+# ----------------------
+# Progress Bar
+# ----------------------
+tqdm>=4.62.0
+
+# ----------------------
+# NLP & Embeddings
+# ----------------------
+gensim>=4.0.0        # For word/emoji embeddings (e.g., emoji2vec)
+transformers>=4.20.0 # For BERT and other pre-trained models
+
+# ----------------------
+# LLM API (Text → Emoji)
+# ----------------------
+# Alibaba Cloud Bailian Batch API (Qwen3-Max)
+dashscope>=1.14.0
+
+# Alternative: OpenAI-compatible API
+openai>=1.0.0

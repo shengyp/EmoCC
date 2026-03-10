@@ -1,0 +1,28 @@
+# Data files (too large to upload)
+*.csv
+*.pkl
+*.pickle
+
+# Model checkpoints
+*checkpoints*
+*_checkpoint*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
