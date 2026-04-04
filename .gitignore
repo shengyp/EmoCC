@@ -3,6 +3,10 @@
 *.pkl
 *.pickle
 
+# Exception: allow data folder
+!data/*.csv
+!data/*.pkl
+
 # Model checkpoints
 *checkpoints*
 *_checkpoint*
