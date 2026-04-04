@@ -1,0 +1,7 @@
+Experiment,Description,Acc (%),F1 (%),GP,GR,F-score,OE
+Full Model,完整模型: BiGRU + Emoji特征 + Global Self-Attention + Last Post + Gated Fusion,60.0,46.49,0.79,0.71,0.75,0.12
+w/o Global Self-Attention,移除全局自注意力: V_final = V_short (只使用最后有效帖子特征),46.0,28.07,0.74,0.55,0.63,0.22
+w/o Last Post,移除最后帖子特征: V_final = V_common (只使用全局注意力输出),52.0,39.05,0.81,0.59,0.68,0.12
+w/o Emoji Feature,"移除Emoji特征: Global Self-Attention输入只有BiGRU输出(B,T,2H)，不拼接Emoji",38.0,17.16,0.58,0.53,0.55,0.28
+w/o Text Feature,"移除文本特征: 去掉V_short，Global Self-Attention输入只有Emoji特征(B,T,300)",40.0,25.56,0.56,0.59,0.57,0.22
+Concat Fusion,"用拼接替换门控融合: V_final = Concat(V_short, V_common)而非Gated Fusion",58.0,47.05,0.74,0.72,0.73,0.16

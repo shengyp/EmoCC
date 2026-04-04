@@ -7,6 +7,9 @@
 !data/*.csv
 !data/*.pkl
 
+# Exception: allow ablation results
+!ablation-model/*.csv
+
 # Model checkpoints
 *checkpoints*
 *_checkpoint*
