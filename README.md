@@ -163,6 +163,7 @@ python reddit_emoji_generator.py result
 | ---------------- | --------- | ------- | ------- | ---------------- |
 | **EmoCC (Ours)** | **0.696** | **0.695** | **0.697** | **0.506**        |
 
+
 ### Weibo
 
 | Model            | F-Score | Accuracy |
@@ -246,8 +247,8 @@ If you find our work useful, please cite:
 
 ## 📧 Contact
 
-- **Email:** your-email@example.com  
-- **Institution:** Your Institution Name
+- **Email:** shengyp2011@163.com  
+- **Institution:** Southwest University
 
 ---
 
